@@ -4,13 +4,7 @@
     "slug": "lifestylecoach",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#111827"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -19,14 +13,10 @@
       "bundleIdentifier": "com.anonymous.lifestylecoach"
     },
     "android": {
+      "package": "com.anonymous.lifestylecoach",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#111827"
-      },
-      "package": "com.anonymous.lifestylecoach"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      }
     },
     "extra": {
       "eas": {
